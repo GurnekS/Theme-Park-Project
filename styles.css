@@ -1,0 +1,51 @@
+/*
+    Web page styles for the theme park tickets calculator page.
+    Author: Gurnek Singh
+    File: Theme Park styles
+    Date: 9/30/21
+*/
+body{
+    background-color: #fdcf33;
+}
+.content{
+    background-color: #fcd089;
+    width: 500px;
+    margin: auto;
+    border: 2px solid black;
+}
+div{
+    text-align: center;
+    display: block;
+}
+img{
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+label {
+    margin-bottom: 4px;
+    display: block;
+}
+
+input, select{
+    margin-bottom: 8px;
+    width: 300px;
+}
+button{
+    margin: 5px auto auto;
+    padding: 5px 25px;
+    font-size: 1.4em;
+    display: block;
+}
+form{
+    text-align: left;
+    display: inline-block;
+}
+#total-cost{
+    font-size: 1.5em;
+}
+div#innerContainer{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
